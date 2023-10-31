@@ -76,6 +76,6 @@ public class BFSIterative {
         tree.root.left.left.right = new Node(6);
         tree.root.right.left = new Node(7);
         tree.root.right.right = new Node(8);
-        tree.bfstree();
+        tree.bfstree(tree.root);
     }
 }
