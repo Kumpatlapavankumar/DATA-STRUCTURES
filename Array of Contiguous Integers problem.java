@@ -1,5 +1,5 @@
 import java.util.*;
-public class ContiguousIntegers{
+class arrayofcontigues{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -8,25 +8,24 @@ public class ContiguousIntegers{
             arr[i]=sc.nextInt();
         }
         HashSet<Integer> set=new HashSet<>();
-        boolean found=false;
         for(int num:arr){
             set.add(num);
         }
         int current=arr[0];
         int count=0;
-        while(set.contains(current)==true){
-                count++;
-                current--;
+        while(set.contains(current)){
+            current--;
+            count++;
         }
         current=arr[0]+1;
-        while(set.contains(current)==true){
-            count++;
+        while(set.contains(current)){
             current++;
+            count++;
         }
         if(count==n){
-            System.out.println("true");
+            System.out.print("True");
         }else{
-            System.out.println("Flase");
+            System.out.print("False");
         }
     }
 }
