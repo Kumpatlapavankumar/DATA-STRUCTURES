@@ -17,11 +17,10 @@ public class PalindromeChecker {
             if (front != end) {
                 return false; // Not a palindrome
             }
-            // Remove the last character from the string
             input = input.substring(0, input.length() - 1);
         }
 
-        return true; // It's a palindrome
+        return true; 
     }
 
     public static void main(String[] args) {
