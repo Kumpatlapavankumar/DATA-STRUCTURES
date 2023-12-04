@@ -18,7 +18,9 @@ public class heapsort{
     }
     public static void maxheapy(int[] arr,int i,int n){
         int largest=i;
+        //left formula 
         int left=2*i+1;
+        //right formula 
         int right=2*i+2;
         if(left<n && arr[left]>arr[largest]){
             largest=left;
