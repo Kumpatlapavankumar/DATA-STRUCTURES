@@ -1,7 +1,7 @@
 import java.util.*;
 class firstuniquecharacter{
     public static void main(String[] args) {
-        String sc="qadvdffdfs";
+        String sc="pavan";
         Character uniquecharacter=null;
         Map<Character,Integer> h=new LinkedHashMap();
         for(Character ch:sc.toCharArray()){
@@ -24,3 +24,4 @@ class firstuniquecharacter{
         }
     }
 }
+//first unique character is --->p
