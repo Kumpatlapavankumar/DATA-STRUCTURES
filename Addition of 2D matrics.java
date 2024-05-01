@@ -3,6 +3,7 @@ public class sumoftwomatrix{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int m=sc.nextInt();
+//hello 
         int n=sc.nextInt();
         int p=sc.nextInt();
         int q=sc.nextInt();
