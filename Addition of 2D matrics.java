@@ -19,7 +19,7 @@ public class sumoftwomatrix{
             for(int j=0;j<q;j++){
                 arr2[i][j]=sc.nextInt();
             }
-        }
+        }//hello
         int c[][]=new int[m][n];
         for(int i=0;i<m;i++){    
             for(int j=0;j<p;j++){    
