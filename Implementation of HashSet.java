@@ -15,7 +15,7 @@ class HashSet1{
            }  
  }  
 }  
-//IRemoving
+//IRemoving or else
 import java.util.*;  
 public class Hashtable2 {  
    public static void main(String args[]) {  
