@@ -17,6 +17,7 @@ class arrayofcontigues{
             current--;
             count++;
         }
+//edit the code
         current=arr[0]+1;
         while(set.contains(current)){
             current++;
