@@ -8,6 +8,7 @@ class creategraph{
             this.destination=destination;
         }
     }
+//super hero 
     public static void creategraph(ArrayList<Edge>[] graph){
         for(int i=0;i<graph.length;i++){
             graph[i]=new ArrayList<Edge>();
