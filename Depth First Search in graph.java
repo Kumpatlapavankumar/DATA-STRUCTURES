@@ -8,6 +8,7 @@ class DFS{
             this.destination=destination;
         }
     }
+    //graphs
     public static void creategraph(ArrayList<Edge>[] graph){
         for(int i=0;i<graph.length;i++){
             graph[i]=new ArrayList<Edge>();
