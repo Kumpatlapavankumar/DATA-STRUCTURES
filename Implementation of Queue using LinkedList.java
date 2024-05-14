@@ -1,7 +1,7 @@
 class Queue<T> {
     private Node<T> front;
     private Node<T> rear;
-
+    //Hello
     // Inner class to represent a linked list node
     private static class Node<T> {
         T data;
