@@ -12,6 +12,7 @@ public class PalindromeChecker {
         }
         // Dequeue characters and compare with the end of the string
         while (!queue.isEmpty()) {
+//king
             char front = queue.remove();
             char end = input.charAt(input.length() - 1);
             if (front != end) {
