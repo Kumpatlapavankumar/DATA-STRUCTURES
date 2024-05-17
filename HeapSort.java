@@ -16,6 +16,7 @@ public class heapsort{
             maxheapy(arr,i,n);
         }
     }
+//heapsorting
     public static void maxheapy(int[] arr,int i,int n){
         int largest=i;
         //left formula 
