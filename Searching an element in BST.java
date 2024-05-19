@@ -11,6 +11,7 @@ class Tree{
     Tree(){
         root=null;
     }
+//searching key 
     boolean searching(Node root,int key){
         if(root==null){
             return false;
