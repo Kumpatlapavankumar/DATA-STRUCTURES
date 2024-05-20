@@ -1,3 +1,4 @@
+//spiral of the tree
 import java.util.*;
 class Node{
     int data;
