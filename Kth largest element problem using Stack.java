@@ -9,7 +9,7 @@ public class Source {
            // pop out the top element in stack
            int value = input.pop();
 
-           // while temporary stack is not empty and value of the top element of input stack is less than the value of the top element of temp stack
+          
            while (!temp.isEmpty() && value < temp.peek()) {
                // pop the last element from temporary stack and push it to the input stack
                input.push(temp.pop());
