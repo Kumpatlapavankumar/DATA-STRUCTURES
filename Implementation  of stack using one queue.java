@@ -10,6 +10,7 @@ public class stackimpusing1que{
 			q1.add(k);
 		}
 	}	
+//edit this code 
 	int pop(){
 		if(q1.isEmpty()){
 			return -1;
