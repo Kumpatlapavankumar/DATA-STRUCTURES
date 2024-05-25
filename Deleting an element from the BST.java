@@ -1,3 +1,4 @@
+//deleting a node
 class Node{
     int data;
     Node left,right;
