@@ -1,3 +1,4 @@
+reverse stack
 import java.util.Stack;
 public class revstack{
     public static void reverse(Stack<Integer> st){
