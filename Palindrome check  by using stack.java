@@ -1,3 +1,4 @@
+//palindrome checker using stack
 import java.util.*;
 public class pailndrome{
     public static void main(String[] args){
