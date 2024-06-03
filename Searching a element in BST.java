@@ -1,4 +1,4 @@
-
+//class tree 
 class Node{
     int data;
     Node left,right;
