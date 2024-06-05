@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
+//Ticket booking project 
 class Ticket {
     private String passengerName;
     private int seatNumber;
