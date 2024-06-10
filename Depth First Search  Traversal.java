@@ -1,3 +1,4 @@
+//DFS
 class Node{
     int data;
     Node left,right;
